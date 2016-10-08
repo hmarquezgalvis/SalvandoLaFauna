@@ -5,68 +5,17 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
    <title>Salvando La Fauna</title>
+   <style>
+      * { margin:0; padding: 0; }
+      html, body, div#container, section { box-sizing: border-box; height: 100%; }
+      body { background: #333; }
+      div#container { margin: 0 auto; max-width: 800px;}
+   </style>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.0.0/pixi.min.js"></script>
+   <!--<script src="scripts/jquery.js"></script>-->
+   <script src="scripts/game.js"></script>
 </head>
 <body>
-   <div class="container">
-
-      <section id="intro">
-         <div class="scene">
-            LOGO
-         </div>
-         <div class="scene">
-            LA FAMILIA QUIRQUINCHO
-         </div>
-         <div class="scene">
-            OTRA PATNLLA
-         </div>
-      </section>
-
-      <section id="mapa">
-         <div class="scene" id="bolivia">
-            MAPA DE BOLIVIA // puntos para iniciar mision
-         </div>
-
-         <div id="oruro" class="scene">
-            MAPA DE ORURO // puntos de accion
-         </div>
-      </section>
-
-
-      <section id="persecusion">
-         <div class="scene">
-            //nivel y juego
-         </div>
-         <div class="scene" id="boss">
-
-         </div>
-      </section>
-
-      <section class="minijuego" id="gato">
-         <div class="scene">
-            3 en raya
-         </div>
-      </section>
-   </div>
-
-
-   <script>
-      var Juego = {
-         var escenaActual = '#intro';
-
-
-         function transicion(destino) {
-            //animacion
-         }
-
-      }
-
-      var Minijuego = {};
-      Minijuego.TresEnRaya = {
-         function init() {
-
-         }
-         
-      };
-   </script>
+   <div id="container"></div>
 </body>
 </html>
