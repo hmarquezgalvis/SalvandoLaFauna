@@ -1,21 +1,36 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-   <title>Salvando La Fauna</title>
-   <style>
-      * { margin:0; padding: 0; }
-      html, body, div#container, section { box-sizing: border-box; height: 100%; }
-      body { background: #333; }
-      div#container { margin: 0 auto; max-width: 800px;}
-   </style>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.0.0/pixi.min.js"></script>
-   <!--<script src="scripts/jquery.js"></script>-->
-   <script src="scripts/game.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Salvando La Fauna</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html, body, div#container, section {
+            box-sizing: border-box;
+            height: 100%;
+        }
+
+        body {
+            background: #333;
+        }
+
+        div#container {
+            margin: 0 auto;
+            max-width: 800px;
+        }
+    </style>
 </head>
 <body>
-   <div id="container"></div>
+    <script src="scripts/vendor/phaser.js"></script>
+    <script src="scripts/scenes/init.js"></script>
+    <script src="scripts/scenes/menu.js"></script>
+    <script src="scripts/scenes/minijuego-tresenraya.js"></script>
+    <script src="scripts/scenes/global.js"></script>
 </body>
 </html>
